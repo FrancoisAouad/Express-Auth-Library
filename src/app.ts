@@ -6,6 +6,8 @@ import compression from 'compression';
 import formdata from 'express-form-data';
 import { sendError, errorHandler } from './utils/handlers/errorHandlers';
 import 'colors';
+// import authlib from 'express-auth-library';
+
 dotenv.config();
 class App {
     //ATTRIBUTES
